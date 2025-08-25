@@ -54,7 +54,7 @@ export default function AuthorLayout({ children, content }: Props) {
             <Button
               className="mt-4"
               as="a"
-              href="/static/Anne_Sarlina_Saminathan_Resume.pdf"
+              href="/static/Alecs Sandra_Account Manager_Resume.pdf"
               target="_blank"
             >
               <span style={{ letterSpacing: '0.05em' }}>Resume</span>

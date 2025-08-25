@@ -62,9 +62,9 @@ export default function ProjectDetails({ params }) {
           {project.title_extra && (
             <span className="mr-3 capitalize"> - {project.title_extra} </span>
           )}
-          <Link href={project.url} target="_blank">
+          {/* <Link href={project.url} target="_blank">
             <LinkIcon />
-          </Link>
+          </Link> */}
         </h2>
         <p className="mt-4 text-lg leading-7 text-gray-500 dark:text-gray-400">{project.detail}</p>
       </div>
