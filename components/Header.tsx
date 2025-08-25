@@ -2,8 +2,8 @@
 
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
-import AS_light from '@/data/as_light.png'
-import AS_dark from '@/data/as_dark.png'
+import AS_light from '@/data/logo.png'
+import AS_dark from '@/data/logo.png'
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
