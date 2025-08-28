@@ -16,6 +16,218 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'Website Restructuring Project',
+    title_extra: 'Product Variation Logic Implementation',
+    id: 'website-restructuring-linens-online',
+    description: `Strategic website restructuring initiative addressing customer purchasing friction through product variation logic implementation. Identified and resolved a key gap where customers repeatedly ordered identical designs in different colors, delivering a 17% increase in average order value and 6.99% improvement in customer return rate within 30 days of launch.`,
+    detail:
+      'Leading the Website Restructuring Project during Q4 2024, I tackled a persistent issue we had overlooked - customers were making multiple orders for the same product designs simply because they wanted different colors or sizes. Our analytics showed this pattern across hundreds of transactions monthly, indicating our website structure was forcing customers into inefficient purchasing behaviors. The solution required reimagining how products were presented and organized on our platform. Working closely with our development team, we implemented variation logic that consolidated related products under single listings while maintaining clear visual distinctions between options. The technical implementation involved restructuring our product database, updating the frontend interface, and ensuring seamless inventory management across all variations. Beyond the technical work, I coordinated with our customer service team to understand common pain points and incorporated their insights into the new design. The results exceeded expectations - not only did we see the 17% AOV increase and 6.99% return rate improvement, but customer feedback indicated significantly higher satisfaction with the browsing experience. This project reinforced how seemingly simple UX improvements can drive meaningful business impact when properly executed.',
+    features: [
+      {
+        title: 'Unified Product Variation System',
+        description:
+          'Consolidated identical designs with different colors and sizes under single product pages, allowing customers to browse and compare options without navigating between separate listings.',
+      },
+      {
+        title: 'Smart Upselling Integration',
+        description:
+          'Implemented contextual suggestions encouraging customers to purchase multiple colors or sizes, turning single-item browsers into multi-item purchasers.',
+      },
+      {
+        title: 'Improved Product Navigation',
+        description:
+          'Streamlined browsing experience with intuitive filtering and sorting options, reducing the time customers spent searching for specific variations.',
+      },
+      {
+        title: 'Dynamic Inventory Management',
+        description:
+          'Real-time stock updates across all product variations with clear availability indicators, preventing customer frustration with out-of-stock items.',
+      },
+      {
+        title: 'Mobile-First Design',
+        description:
+          'Prioritized mobile user experience with touch-friendly variation selectors and optimized checkout flow, addressing our predominantly mobile customer base.',
+      },
+      {
+        title: 'Customer Journey Tracking',
+        description:
+          'Enhanced analytics setup tracking how customers interact with variation options, providing ongoing insights for further optimization.',
+      },
+      {
+        title: 'Bulk Purchase Functionality',
+        description:
+          'Simplified process for customers wanting multiple variations, with quantity selectors and bundle pricing where applicable.',
+      },
+      {
+        title: 'Visual Comparison Tools',
+        description:
+          'Side-by-side comparison features helping customers visualize different color options and make confident purchasing decisions.',
+      },
+    ],
+    contribution: [
+      {
+        title: 'Data-Driven Problem Discovery',
+        description:
+          'Identified the core issue through detailed analysis of customer purchase patterns and order data, recognizing that repeat orders for same-design products represented a significant UX gap rather than positive customer behavior.',
+      },
+      {
+        title: 'Cross-Functional Project Leadership',
+        description:
+          'Coordinated efforts between development, design, customer service, and warehouse teams to ensure the solution addressed both technical requirements and operational realities of managing varied product inventories.',
+      },
+      {
+        title: 'User Experience Redesign',
+        description:
+          'Led the complete reimagining of product pages, working directly with our design team to create intuitive interfaces that made variation selection feel natural and encouraged multiple purchases.',
+      },
+      {
+        title: 'Technical Implementation Oversight',
+        description:
+          'Managed the complex technical integration including database restructuring, inventory system updates, and frontend development while maintaining site stability throughout the transition.',
+      },
+      {
+        title: 'Customer Feedback Integration',
+        description:
+          'Incorporated insights from customer service interactions and user testing sessions to refine the variation logic, ensuring the final solution truly addressed customer needs rather than just technical capabilities.',
+      },
+      {
+        title: 'Performance Impact Achievement',
+        description:
+          'Delivered measurable business results with 17% AOV increase and 6.99% customer return rate improvement within 30 days, demonstrating clear ROI from the restructuring investment.',
+      },
+      {
+        title: 'Team Development and Training',
+        description:
+          'Provided comprehensive training to customer service representatives on the new system functionality and troubleshooting, ensuring seamless customer support during and after the transition.',
+      },
+      {
+        title: 'Continuous Optimization Framework',
+        description:
+          'Established ongoing monitoring and improvement processes, using customer behavior data to identify opportunities for further enhancements to the variation system.',
+      },
+    ],
+  
+    imgSrcLight: '/static/images/projects/website_restructuring_light.png',
+    imgSrcDark: '/static/images/projects/website_restructuring_dark.png',
+    href: '/projects/website-restructuring-linens-online',
+    company: 'Home Linens Retail Group',
+    tags: [
+      'Business Development',
+      'Revenue Growth',
+      'Strategic Analysis',
+      'Analytics & Process Automation',
+      'Consumer Insights',
+      'Cross-Functional Collaboration',
+      'Project & Stakeholder Management',
+    ],
+    url: '#',
+  },
+  {
+    title: 'Product Listing Tool Development',
+    title_extra: 'Multi-Platform SKU Management Solution',
+    id: 'product-listing-tool-manor-park',
+    description: `Operational efficiency initiative addressing the time-consuming challenge of listing thousands of unique SKUs across multiple e-commerce platforms. Managed the development of an automated template-filling tool that reduced average handling time by 50%, enabling the successful upload of over 2,000 SKUs across multiple platforms ahead of the Q4 2025 deadline.`,
+    detail:
+      'While working on e-commerce optimization projects, I encountered a significant operational bottleneck at Manor Park Trading - the manual process of listing unique SKUs across various platforms was consuming enormous amounts of team time, even with bulk CSV uploads. With over 2,000 products needing to go live by Q4 2025, the existing manual approach would have made this deadline impossible. After analyzing the repetitive nature of the work, I identified an opportunity to automate the template creation process. Working with our development resources and leveraging my experience with data management tools, we created a solution that automatically populated listing templates with product information, descriptions, and specifications. The tool integrated with our existing product database and could generate platform-specific formats for different marketplaces. Implementation required careful testing to ensure data accuracy and compliance with each platform\'s requirements. The results exceeded expectations - we reduced average handling time by 50% and successfully listed all 2,000+ SKUs well ahead of our Q4 deadline. This project highlighted how identifying process inefficiencies and applying the right technology solutions can dramatically improve operational capacity.',
+    features: [
+      {
+        title: 'Automated Template Population',
+        description:
+          'Smart template-filling system that automatically extracts product information from master databases and populates platform-specific listing templates, eliminating manual data entry.',
+      },
+      {
+        title: 'Multi-Platform Format Support',
+        description:
+          'Flexible output generation supporting various e-commerce platforms with different formatting requirements, ensuring compliance with each marketplace\'s specifications.',
+      },
+      {
+        title: 'Bulk Processing Capabilities',
+        description:
+          'High-volume processing functionality enabling simultaneous template generation for hundreds of SKUs, dramatically reducing time-to-market for new products.',
+      },
+      {
+        title: 'Data Validation and Quality Control',
+        description:
+          'Built-in validation checks ensuring accurate product information, proper categorization, and completeness before template generation.',
+      },
+      {
+        title: 'Database Integration',
+        description:
+          'Seamless connection with existing product management systems, automatically pulling the latest product specifications, pricing, and inventory data.',
+      },
+      {
+        title: 'Error Handling and Reporting',
+        description:
+          'Comprehensive error detection and reporting system identifying issues in source data or template generation for quick resolution.',
+      },
+      {
+        title: 'User-Friendly Interface',
+        description:
+          'Intuitive interface designed for team members with varying technical skills, making the tool accessible across different departments.',
+      },
+      {
+        title: 'Progress Tracking Dashboard',
+        description:
+          'Real-time monitoring of listing progress across platforms, providing visibility into completion rates and identifying any bottlenecks.',
+      },
+    ],
+    contribution: [
+      {
+        title: 'Process Analysis and Bottleneck Identification',
+        description:
+          'Conducted thorough analysis of existing SKU listing workflows, identifying the manual template creation process as the primary time-consuming bottleneck preventing efficient multi-platform product launches.',
+      },
+      {
+        title: 'Solution Design and Requirements Gathering',
+        description:
+          'Designed the automated tool concept based on understanding of different platform requirements and team workflows. Gathered detailed requirements from various stakeholders to ensure the solution addressed real operational needs.',
+      },
+      {
+        title: 'Development Project Management',
+        description:
+          'Managed the end-to-end tool development process, coordinating between technical resources and business stakeholders to ensure the solution met both functional requirements and deadline constraints.',
+      },
+      {
+        title: 'Cross-Platform Integration Strategy',
+        description:
+          'Developed comprehensive approach for handling multiple e-commerce platform formats and requirements, ensuring the tool could generate accurate listings regardless of destination marketplace specifications.',
+      },
+      {
+        title: 'Quality Assurance and Testing Oversight',
+        description:
+          'Led extensive testing phases to validate data accuracy and template quality across different product categories and platforms, establishing confidence in the automated process before full deployment.',
+      },
+      {
+        title: 'Team Training and Change Management',
+        description:
+          'Provided comprehensive training to team members on the new tool, managing the transition from manual processes and ensuring smooth adoption across all relevant departments.',
+      },
+      {
+        title: 'Performance Achievement and Optimization',
+        description:
+          'Successfully delivered 50% reduction in average handling time and enabled the upload of 2,000+ SKUs across multiple platforms, meeting the Q4 2025 deadline with time to spare.',
+      },
+      {
+        title: 'Scalability Planning and Future Enhancement',
+        description:
+          'Established framework for ongoing tool maintenance and enhancement, ensuring the solution could scale with business growth and accommodate additional platforms as needed.',
+      },
+    ],
+  
+    imgSrcLight: '/static/images/projects/product_listing_tool_light.png',
+    imgSrcDark: '/static/images/projects/product_listing_tool_dark.png',
+    href: '/projects/product-listing-tool-manor-park',
+    company: 'Manor Park Trading',
+    tags: [
+      'Analytics & Process Automation',
+      'Cross-Functional Collaboration',
+      'Project & Stakeholder Management',
+      'Sales Operations',
+  
+    ],
+    url: '#',
+  },
+  {
     title: 'Luxury Escapes Sales Recovery',
     // title_extra: 'Google Ads Campaign Optimization',
     id: 'luxury-escapes-sales-recovery',
@@ -331,216 +543,6 @@ const projectsData: Project[] = [
       'Competitive Analysis',
       'Consumer Insights',
       'Project & Stakeholder Management',
-    ],
-    url: '#',
-  },
-  {
-    title: 'Website Restructuring Project',
-    title_extra: 'Product Variation Logic Implementation',
-    id: 'website-restructuring-linens-online',
-    description: `Strategic website restructuring initiative addressing customer purchasing friction through product variation logic implementation. Identified and resolved a key gap where customers repeatedly ordered identical designs in different colors, delivering a 17% increase in average order value and 6.99% improvement in customer return rate within 30 days of launch.`,
-    detail:
-      'Leading the Website Restructuring Project during Q4 2024, I tackled a persistent issue we had overlooked - customers were making multiple orders for the same product designs simply because they wanted different colors or sizes. Our analytics showed this pattern across hundreds of transactions monthly, indicating our website structure was forcing customers into inefficient purchasing behaviors. The solution required reimagining how products were presented and organized on our platform. Working closely with our development team, we implemented variation logic that consolidated related products under single listings while maintaining clear visual distinctions between options. The technical implementation involved restructuring our product database, updating the frontend interface, and ensuring seamless inventory management across all variations. Beyond the technical work, I coordinated with our customer service team to understand common pain points and incorporated their insights into the new design. The results exceeded expectations - not only did we see the 17% AOV increase and 6.99% return rate improvement, but customer feedback indicated significantly higher satisfaction with the browsing experience. This project reinforced how seemingly simple UX improvements can drive meaningful business impact when properly executed.',
-    features: [
-      {
-        title: 'Unified Product Variation System',
-        description:
-          'Consolidated identical designs with different colors and sizes under single product pages, allowing customers to browse and compare options without navigating between separate listings.',
-      },
-      {
-        title: 'Smart Upselling Integration',
-        description:
-          'Implemented contextual suggestions encouraging customers to purchase multiple colors or sizes, turning single-item browsers into multi-item purchasers.',
-      },
-      {
-        title: 'Improved Product Navigation',
-        description:
-          'Streamlined browsing experience with intuitive filtering and sorting options, reducing the time customers spent searching for specific variations.',
-      },
-      {
-        title: 'Dynamic Inventory Management',
-        description:
-          'Real-time stock updates across all product variations with clear availability indicators, preventing customer frustration with out-of-stock items.',
-      },
-      {
-        title: 'Mobile-First Design',
-        description:
-          'Prioritized mobile user experience with touch-friendly variation selectors and optimized checkout flow, addressing our predominantly mobile customer base.',
-      },
-      {
-        title: 'Customer Journey Tracking',
-        description:
-          'Enhanced analytics setup tracking how customers interact with variation options, providing ongoing insights for further optimization.',
-      },
-      {
-        title: 'Bulk Purchase Functionality',
-        description:
-          'Simplified process for customers wanting multiple variations, with quantity selectors and bundle pricing where applicable.',
-      },
-      {
-        title: 'Visual Comparison Tools',
-        description:
-          'Side-by-side comparison features helping customers visualize different color options and make confident purchasing decisions.',
-      },
-    ],
-    contribution: [
-      {
-        title: 'Data-Driven Problem Discovery',
-        description:
-          'Identified the core issue through detailed analysis of customer purchase patterns and order data, recognizing that repeat orders for same-design products represented a significant UX gap rather than positive customer behavior.',
-      },
-      {
-        title: 'Cross-Functional Project Leadership',
-        description:
-          'Coordinated efforts between development, design, customer service, and warehouse teams to ensure the solution addressed both technical requirements and operational realities of managing varied product inventories.',
-      },
-      {
-        title: 'User Experience Redesign',
-        description:
-          'Led the complete reimagining of product pages, working directly with our design team to create intuitive interfaces that made variation selection feel natural and encouraged multiple purchases.',
-      },
-      {
-        title: 'Technical Implementation Oversight',
-        description:
-          'Managed the complex technical integration including database restructuring, inventory system updates, and frontend development while maintaining site stability throughout the transition.',
-      },
-      {
-        title: 'Customer Feedback Integration',
-        description:
-          'Incorporated insights from customer service interactions and user testing sessions to refine the variation logic, ensuring the final solution truly addressed customer needs rather than just technical capabilities.',
-      },
-      {
-        title: 'Performance Impact Achievement',
-        description:
-          'Delivered measurable business results with 17% AOV increase and 6.99% customer return rate improvement within 30 days, demonstrating clear ROI from the restructuring investment.',
-      },
-      {
-        title: 'Team Development and Training',
-        description:
-          'Provided comprehensive training to customer service representatives on the new system functionality and troubleshooting, ensuring seamless customer support during and after the transition.',
-      },
-      {
-        title: 'Continuous Optimization Framework',
-        description:
-          'Established ongoing monitoring and improvement processes, using customer behavior data to identify opportunities for further enhancements to the variation system.',
-      },
-    ],
-  
-    imgSrcLight: '/static/images/projects/website_restructuring_light.png',
-    imgSrcDark: '/static/images/projects/website_restructuring_dark.png',
-    href: '/projects/website-restructuring-linens-online',
-    company: 'Home Linens Retail Group',
-    tags: [
-      'Revenue Growth',
-      'Strategic Analysis',
-      'Analytics & Process Automation',
-      'Consumer Insights',
-      'Cross-Functional Collaboration',
-      'Project & Stakeholder Management',
-    ],
-    url: '#',
-  },
-  {
-    title: 'Product Listing Tool Development',
-    title_extra: 'Multi-Platform SKU Management Solution',
-    id: 'product-listing-tool-manor-park',
-    description: `Operational efficiency initiative addressing the time-consuming challenge of listing thousands of unique SKUs across multiple e-commerce platforms. Managed the development of an automated template-filling tool that reduced average handling time by 50%, enabling the successful upload of over 2,000 SKUs across multiple platforms ahead of the Q4 2025 deadline.`,
-    detail:
-      'While working on e-commerce optimization projects, I encountered a significant operational bottleneck at Manor Park Trading - the manual process of listing unique SKUs across various platforms was consuming enormous amounts of team time, even with bulk CSV uploads. With over 2,000 products needing to go live by Q4 2025, the existing manual approach would have made this deadline impossible. After analyzing the repetitive nature of the work, I identified an opportunity to automate the template creation process. Working with our development resources and leveraging my experience with data management tools, we created a solution that automatically populated listing templates with product information, descriptions, and specifications. The tool integrated with our existing product database and could generate platform-specific formats for different marketplaces. Implementation required careful testing to ensure data accuracy and compliance with each platform\'s requirements. The results exceeded expectations - we reduced average handling time by 50% and successfully listed all 2,000+ SKUs well ahead of our Q4 deadline. This project highlighted how identifying process inefficiencies and applying the right technology solutions can dramatically improve operational capacity.',
-    features: [
-      {
-        title: 'Automated Template Population',
-        description:
-          'Smart template-filling system that automatically extracts product information from master databases and populates platform-specific listing templates, eliminating manual data entry.',
-      },
-      {
-        title: 'Multi-Platform Format Support',
-        description:
-          'Flexible output generation supporting various e-commerce platforms with different formatting requirements, ensuring compliance with each marketplace\'s specifications.',
-      },
-      {
-        title: 'Bulk Processing Capabilities',
-        description:
-          'High-volume processing functionality enabling simultaneous template generation for hundreds of SKUs, dramatically reducing time-to-market for new products.',
-      },
-      {
-        title: 'Data Validation and Quality Control',
-        description:
-          'Built-in validation checks ensuring accurate product information, proper categorization, and completeness before template generation.',
-      },
-      {
-        title: 'Database Integration',
-        description:
-          'Seamless connection with existing product management systems, automatically pulling the latest product specifications, pricing, and inventory data.',
-      },
-      {
-        title: 'Error Handling and Reporting',
-        description:
-          'Comprehensive error detection and reporting system identifying issues in source data or template generation for quick resolution.',
-      },
-      {
-        title: 'User-Friendly Interface',
-        description:
-          'Intuitive interface designed for team members with varying technical skills, making the tool accessible across different departments.',
-      },
-      {
-        title: 'Progress Tracking Dashboard',
-        description:
-          'Real-time monitoring of listing progress across platforms, providing visibility into completion rates and identifying any bottlenecks.',
-      },
-    ],
-    contribution: [
-      {
-        title: 'Process Analysis and Bottleneck Identification',
-        description:
-          'Conducted thorough analysis of existing SKU listing workflows, identifying the manual template creation process as the primary time-consuming bottleneck preventing efficient multi-platform product launches.',
-      },
-      {
-        title: 'Solution Design and Requirements Gathering',
-        description:
-          'Designed the automated tool concept based on understanding of different platform requirements and team workflows. Gathered detailed requirements from various stakeholders to ensure the solution addressed real operational needs.',
-      },
-      {
-        title: 'Development Project Management',
-        description:
-          'Managed the end-to-end tool development process, coordinating between technical resources and business stakeholders to ensure the solution met both functional requirements and deadline constraints.',
-      },
-      {
-        title: 'Cross-Platform Integration Strategy',
-        description:
-          'Developed comprehensive approach for handling multiple e-commerce platform formats and requirements, ensuring the tool could generate accurate listings regardless of destination marketplace specifications.',
-      },
-      {
-        title: 'Quality Assurance and Testing Oversight',
-        description:
-          'Led extensive testing phases to validate data accuracy and template quality across different product categories and platforms, establishing confidence in the automated process before full deployment.',
-      },
-      {
-        title: 'Team Training and Change Management',
-        description:
-          'Provided comprehensive training to team members on the new tool, managing the transition from manual processes and ensuring smooth adoption across all relevant departments.',
-      },
-      {
-        title: 'Performance Achievement and Optimization',
-        description:
-          'Successfully delivered 50% reduction in average handling time and enabled the upload of 2,000+ SKUs across multiple platforms, meeting the Q4 2025 deadline with time to spare.',
-      },
-      {
-        title: 'Scalability Planning and Future Enhancement',
-        description:
-          'Established framework for ongoing tool maintenance and enhancement, ensuring the solution could scale with business growth and accommodate additional platforms as needed.',
-      },
-    ],
-  
-    imgSrcLight: '/static/images/projects/product_listing_tool_light.png',
-    imgSrcDark: '/static/images/projects/product_listing_tool_dark.png',
-    href: '/projects/product-listing-tool-manor-park',
-    company: 'Manor Park Trading',
-    tags: [
-      'Analytics & Process Automation',
-      'Cross-Functional Collaboration',
-      'Project & Stakeholder Management',
-      'Sales Operations',
     ],
     url: '#',
   },

@@ -54,7 +54,7 @@ export default function AuthorLayout({ children, content }: Props) {
             <Button
               className="mt-4"
               as="a"
-              href="/static/Alecs Sandra.pdf"
+              href="/static/Alecs Sandra_Strategy_and_Operations_Lead_2025.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
