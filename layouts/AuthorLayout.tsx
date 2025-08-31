@@ -51,7 +51,7 @@ export default function AuthorLayout({ children, content }: Props) {
               <SocialIcon kind="instagram" href={instagram} />
               <SocialIcon kind="x" href={twitter} />
             </div>
-            <Button
+            {/* <Button
               className="mt-4"
               as="a"
               href="/static/Alecs Sandra_Strategy_and_Operations_Lead_2025.pdf"
@@ -60,7 +60,7 @@ export default function AuthorLayout({ children, content }: Props) {
             >
               <span style={{ letterSpacing: '0.05em' }}>Resume</span>
               📄
-            </Button>
+            </Button> */}
           </div>
           <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
             {children}
